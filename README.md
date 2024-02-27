@@ -40,10 +40,16 @@ Simultaneously, the labels convert into torch tensors for compatibility with the
 
 The model is trained using the AdamW optimizer with a linear learning rate scheduler. Training is performed over multiple epochs, and the model is evaluated on a validation set after each epoch. 
 
-### Training and validation losses, accuracy, and time metrics are recorded for analysis.
+- Training Accuracy: 0.84
+- Validation Loss: 0.45
+- Total training time: 4 minutes 14 seconds
+
+<br/><center><img src="" width="800" height="400"></center>
 
 ## Results
 
 The Matthews Correlation Coefficient (MCC) is calculated as a performance metric, providing insight into the overall quality of the model's predictions, considering both true positives and negatives.
 
-### Values
+- MCC Score: 0.524
+
+<br/><center><img src="" width="800" height="400"></center>
