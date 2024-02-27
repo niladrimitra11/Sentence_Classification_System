@@ -44,7 +44,7 @@ The model is trained using the AdamW optimizer with a linear learning rate sched
 - Validation Loss: 0.45
 - Total training time: 4 minutes 14 seconds
 
-<br/><center><img src="" width="800" height="400"></center>
+  <center><img src="https://github.com/niladrimitra11/Sentence_Classification_System/blob/main/Images/Data_Loss_for_Training_and_Validation.png" width="800" height="400"></center>
 
 ## Results
 
@@ -52,4 +52,4 @@ The Matthews Correlation Coefficient (MCC) is calculated as a performance metric
 
 - MCC Score: 0.524
 
-<br/><center><img src="" width="800" height="400"></center>
+  <center><img src="https://github.com/niladrimitra11/Sentence_Classification_System/blob/main/Images/MCC_Score_per_Batch.png" width="800" height="400"></center>
